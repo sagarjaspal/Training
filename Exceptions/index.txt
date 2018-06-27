@@ -1,0 +1,25 @@
+Exception is an abnormal condition condition that occur at run time
+
+Python provides with 3 keywords:
+try , except, finally
+
+Usage: try-except, try- finally, try-except-finally
+
+Some errors:
+* ZeroDivisionError: divide by zero
+* ArgumentError: incorrect type or no. of argument
+* NameError
+* IndexError: index out of bound
+
+Exception handler divides the program into certain blocks i.e. try blocks such that
+if error occur only the execution of that particular block terminates
+
+FINALLY:
+- Finally block is used to free the resources
+eg: closing database, setting password to null before exit
+- The interpreter goes into this block even if error is not encountered
+
+# Exception is super class of all exceptions
+
+USER DEFINED EXCEPTION:
+- this exception changes pre-defined msg of any particular exception with user-defined msg
