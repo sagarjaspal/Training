@@ -1,0 +1,111 @@
+1. install anaconda
+2. cmd -> jupyter notebook
+3. view(right side) -> python 3
+
+- run - shift + enter
+- a -> new line above line
+- b -> new line below line
+
+import numpy as np
+
+a = np.array([1,2,3,4])
+print a
+type(a)
+print a.ndim // ndim = no. of dimension
+print a.size // size of array
+print len(a) // same
+
+
+in array, every operation performed on array is performed with every element of array
+
+b = np.array([6,7,8,9])
+print b
+
+print b+a
+print b-a
+print b/a
+print b**2
+print a**b
+
+* array a and b must have same no. of elements for performing above operations
+
+b = np.array([[1,2,3], [4,5,6], [7,8,9]])
+print b
+print b.ndim
+print b[0] // output: array([1,2,3])
+print b[:] // print all
+print b[start row: end row , start col:end col]
+print b[-1::-1]
+
+#reshape
+c= np.array(range(6)) // c is[0,1,2,3,4,5]
+c.reshape(2,3) // c now is 0,1,2
+               //          3,4,5
+
+#resize
+a = np.array(range(5))
+a.resize((2,4), refcheck=false) //adds absent elements as 0 itself
+
+*shift+tab for suggestion
+*shift+ double tab for detailed sugestion
+
+#concat
+x = np.array([[1,2], [3,4]], float)
+y = np.array([[1,2], [3,4]], float)
+print np.concatenate(x,y) //row wise
+print np.concatenate((x,y), axis=1) //column wise
+
+#arange
+
+
+#ones - creates array with given shape with all elements as 1
+print np.ones(3, dtype=int)
+print np.ones((2,2))
+
+#zeroes = creates array with given shape with all elements as 0
+print np.zeroes((3,3)) // 3x3 array with all element zero
+
+#identity - creates nxn identity matrix taking n as argument
+print np.identity(3, dtype=int) //default dtype is float
+
+#print element greater than x in n
+n = np.array(range(6)).reshape(2,3)
+print n[n > 3]
+
+#print index where element greater
+np.where(n>3)
+
+#
+c=np.linspace(0, 1, 5)
+#start, end, num-points
+#including start and end
+c=np.linspace(0, 1, 5, endpoint=False) #doesnt include last point
+
+#eye - print
+print np.eye(3)
+1 0 0
+0 1 0
+0 0 1
+print np.eye(3,k=1)
+0 1 0
+0 0 1
+0 0 0
+
+#diag
+x=np.array([1,2,3,4])
+d=np.diag(x)
+print d
+
+print np.diag(d)
+
+print d.shape //prints (row, column)
+
+r= np.random.randint(1,4,size=(2,2))
+
+
+
+
+
+to print 2x2 array from b:
+
+
