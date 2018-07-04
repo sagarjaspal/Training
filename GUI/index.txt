@@ -2,3 +2,5 @@ class for button: Button
 class for textfield : Entry
 class for label: Label
 radiobutton:
+
+.get() is used to extract value from object
