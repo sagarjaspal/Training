@@ -1,0 +1,6 @@
+menubar has menu and menu items
+Menu class is used
+add_command(label = "label") adds item to menu
+add_separator()
+add_cascade(label="label to show on menubar", underline=index_to_be_underlined,
+            menu=self.menu_name) adds menu to menu bar

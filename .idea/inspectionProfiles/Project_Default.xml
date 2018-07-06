@@ -6,6 +6,7 @@
         <list>
           <option value="MyException" />
           <option value="Exceptions.MyExcept1.MyExcept" />
+          <option value="Menu.redirect_using_menu.Login" />
         </list>
       </option>
     </inspection_tool>
