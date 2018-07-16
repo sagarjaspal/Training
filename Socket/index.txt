@@ -1,0 +1,11 @@
+2 types
+-client
+-server
+
+socketObj = socket(AF_INET, SOCK_STREAM)
+AF_INET refers to ipv4 protocol
+SOCK_STREAM means connection oriented TCP protocol
+
+2 types of protocol
+- connection-less: UDP
+- connection oriented: TCP

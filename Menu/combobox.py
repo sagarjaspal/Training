@@ -7,6 +7,7 @@ class Combo(Frame):
 
         self.var = StringVar(self)
         choices = {'Python', 'ML', 'DS', 'Django'}
+        print(type(choices))
         self.var.set('Python')
         self.popupMenu = OptionMenu(self, self.var, *choices)
         self.lbl = Label(self, text='Choose a language')

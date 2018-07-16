@@ -1,0 +1,19 @@
+iis is default server on windows: one site is opened at a time
+apache opens multiple sites
+2.7 is already installed on linux and needs to be removed
+> sudo rm /usr/bin/python
+> sudo ln -s /usr/bin/python3 /user/bin/python
+> sudo apt-get install mysql-server
+>mysql -u root-p
+>sudo apt-get install apache2
+
+
+
+3 user
+-group
+-admin
+-super
+r(read)=4 w(write)=2 s=1
+4+2+1=7
+7 means full permission
+> sudo chmod 777 /

@@ -1,0 +1,24 @@
+- for loop in python is internally built using itr() and next() operator
+- itr() is the operator used and __iter__ is the method
+- next() is the operator used and __next__ is the method
+
+Closure:
+- fn within someone
+- outer fn has global variables
+- inner fn has local variables
+
+Decorator:
+- to add functionality in existing fn
+
+
+
+
+
+
+
+
+
+
+
+
+
